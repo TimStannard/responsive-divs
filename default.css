@@ -1,0 +1,89 @@
+div {
+	  box-sizing: border-box;
+}
+
+#blog-img {
+	max-width: 100%;
+	display: block;
+}
+
+.wrapper { 
+  border : 2px solid #000; 
+  overflow:hidden;
+  margin-top: 5px;
+}
+
+.wrapper div {
+   padding: 0px;
+}
+
+@media screen and (min-width: 799px) {
+#one {
+  background-color: gray;
+  float:left; 
+  width:40%;
+/*  border-right:2px solid #000;*/
+
+}
+#two { 
+  background-color: white;
+  float:left; 
+  overflow:hidden;
+  width:30%;
+
+}
+#three { 
+  background-color: white;
+  overflow:hidden;
+  width:30%; 
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+
+	#two { 
+
+  float:left; 
+  overflow:hidden;
+  width:50%;
+
+}
+#three { 
+  background-color: white;
+  overflow:hidden;
+  width:50%; 
+	}
+}
+
+@media screen and (max-width: 500px) {
+   #one { 
+    float: none;
+    margin-right:0;
+    width:auto;
+    border:0;
+    border-bottom:2px solid #000;    
+  }
+
+
+#two { 
+  float:left; 
+  overflow:hidden;
+  width: 100%;
+  display: block;
+}
+#three { 
+  background-color: white;
+  overflow:hidden;
+  width:100%; 
+   display: block;
+	}
+}
+
